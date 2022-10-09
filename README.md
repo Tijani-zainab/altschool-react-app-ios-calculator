@@ -1,2 +1,2 @@
 # AltSchool Assignment
-# AltSchool-react-app-io-calculator
+#### AltSchool-react-app-ios-calculator
