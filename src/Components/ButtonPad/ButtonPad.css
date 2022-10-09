@@ -53,7 +53,7 @@
 
 
 @media only screen and (max-width: 640px) {
-    /* .row {
-
-    } */
+    .button-pad {
+        padding: 0;
+    }
 }
