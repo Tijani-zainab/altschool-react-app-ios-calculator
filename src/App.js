@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import TopSpace from './Components/TopSpace/TopSpace';
 import Display from './Components/Display/Display';
 import ButtonPad from './Components/ButtonPad/ButtonPad';
@@ -6,9 +7,9 @@ import './App.css';
 
 const App = () => {
 
-  const [input, setInput] = React.useState('0');
-  const [oldInput, setOldInput] = React.useState('0');
-  const [operator, setOperator] = React.useState('');
+  const [input, setInput] = useState('0');
+  const [oldInput, setOldInput] = useState('0');
+  const [operator, setOperator] = useState('');
 
 
   const handleNumber = (e) => {
